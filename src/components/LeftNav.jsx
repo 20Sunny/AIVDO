@@ -1,3 +1,5 @@
+/* This code snippet is a React functional component named `LeftNav` that represents a left navigation
+menu. Here's a breakdown of what the code is doing: */
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 

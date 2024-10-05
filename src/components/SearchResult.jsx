@@ -1,3 +1,5 @@
+/* This code snippet is a React component named `SearchResult` that is responsible for displaying
+search results in a user interface. Here is a breakdown of what the code is doing: */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";

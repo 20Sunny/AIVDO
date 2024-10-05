@@ -1,3 +1,4 @@
+/* This code snippet is creating a React context and a context provider component called `AppContext`. */
 import React, { createContext, useState, useEffect } from "react";
 
 import { fetchDataFromApi } from "../utils/api";

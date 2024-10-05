@@ -1,3 +1,5 @@
+/* This code snippet is a React component named `Header` that represents a header section of a website.
+Here's a breakdown of what the code is doing: */
 import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 

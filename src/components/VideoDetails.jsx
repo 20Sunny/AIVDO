@@ -1,3 +1,5 @@
+/* This code snippet is a React component named `VideoDetails` that displays details of a video along
+with related videos. Here's a breakdown of what the code is doing: */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";

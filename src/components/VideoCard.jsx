@@ -1,3 +1,5 @@
+/* This code snippet is defining a React functional component called `VideoCard`. This component is
+responsible for rendering a video card UI element. Here's a breakdown of what the code is doing: */
 import React from "react";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { Link } from "react-router-dom";

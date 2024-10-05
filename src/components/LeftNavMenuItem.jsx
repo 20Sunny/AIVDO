@@ -1,3 +1,10 @@
+/**
+ * The LeftNavMenuItem component in JavaScript React renders a menu item with text, icon, custom class,
+ * and an onClick action.
+ * @returns The `LeftNavMenuItem` component is being returned. It is a functional component that
+ * renders a styled menu item with text, an icon, and an optional action. The component accepts props
+ * such as `text`, `icon`, `className`, and `action`, and renders them accordingly.
+ */
 import React from "react";
 
 const LeftNavMenuItem = ({ text, icon, className, action }) => {

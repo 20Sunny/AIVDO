@@ -1,3 +1,6 @@
+/* This JavaScript code snippet is setting up a function `fetchDataFromApi` that makes an HTTP GET
+request to a specified URL using the Axios library. Here's a breakdown of what each part of the code
+is doing: */
 import axios from "axios";
 
 const BASE_URL = "https://youtube138.p.rapidapi.com";

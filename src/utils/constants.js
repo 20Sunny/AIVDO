@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AiFillHome, AiOutlineFlag } from "react-icons/ai";
+import { AiFillHome,} from "react-icons/ai";
 import { MdLocalFireDepartment, MdLiveTv } from "react-icons/md";
 import { CgMusicNote } from "react-icons/cg";
 import { FiFilm } from "react-icons/fi";
@@ -27,7 +27,6 @@ export const categories = [
         divider: true,
     },
     { name: "Settings", icon: <FiSettings />, type: "menu" },
-    { name: "Report History", icon: <AiOutlineFlag />, type: "menu" },
     { name: "Help", icon: <FiHelpCircle />, type: "menu" },
     { name: "Send feedback", icon: <RiFeedbackLine />, type: "menu" },
 ];

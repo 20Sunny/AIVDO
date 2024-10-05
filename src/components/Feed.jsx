@@ -1,3 +1,4 @@
+/* This code snippet is a React functional component named `Feed`. Here's a breakdown of what it does: */
 import React, { useContext, useEffect } from "react";
 
 import { Context } from "../context/contextApi";

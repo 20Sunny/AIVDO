@@ -1,3 +1,10 @@
+/**
+ * The `SuggestionVideoCard` component in JavaScript React renders a card displaying video information
+ * with a thumbnail, title, author, views count, and published time.
+ * @returns The `SuggestionVideoCard` component is being returned. It is a React functional component
+ * that displays a video card with information such as the video thumbnail, title, author, views, and
+ * published time. The component also includes a link to the video details page.
+ */
 import React from "react";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { BsFillCheckCircleFill } from "react-icons/bs";
