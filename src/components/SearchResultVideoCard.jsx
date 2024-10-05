@@ -13,6 +13,7 @@ const SearchResultVideoCard = ({ video }) => {
                     <img
                         className="h-full w-full object-cover"
                         src={video?.thumbnails[0]?.url}
+                        alt={video?.title || "Video thumbnail"}
                     />
                     {video?.lengthSeconds && (
                         <VideoLength time={video?.lengthSeconds} />
@@ -29,8 +30,9 @@ const SearchResultVideoCard = ({ video }) => {
                         <div className="flex items-start mr-3">
                             <div className="flex h-9 w-9 rounded-full overflow-hidden">
                                 <img
-                                    className="h-full w-full object-cover"
+                                 className="h-full w-full object-cover"
                                     src={video?.author?.avatar[0]?.url}
+                                    alt={video?.author?.title || "Author Avatar"}
                                 />
                             </div>
                         </div>
