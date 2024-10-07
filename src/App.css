@@ -1,0 +1,17 @@
+.vediocardglass{
+    border: 1px solid #0000002e;
+    background: #ffffff33;
+    box-shadow: 0 0 10px #ffffff2e;
+    border-radius: 8px;
+}
+.vediocardglass:hover{
+    background: #ffffff3c;
+}
+.backgroundimage{
+    background-image: url('./images/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}

@@ -15,7 +15,7 @@ const VideoLength = ({ time }) => {
         ?.seconds(time)
         ?.format("H:mm:ss");
     return (
-        <span className="absolute bottom-2 right-2 bg-black py-1 px-2 text-white text-xs rounded-md">
+        <span className="absolute bottom-2 right-2 py-1 px-2 text-white text-xs rounded-md" style={{background: "#00000050"}}>
             {videoLengthInSeconds}
         </span>
     );

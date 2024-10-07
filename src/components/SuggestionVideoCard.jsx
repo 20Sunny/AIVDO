@@ -27,7 +27,7 @@ const SuggestionVideoCard = ({ video }) => {
                     )}
                 </div>
                 <div className="flex flex-col ml-3 overflow-hidden">
-                    <span className="text-sm lg:text-xs xl:text-sm font-bold line-clamp-2 text-white">
+                    <span className="text-sm lg:text-xs xl:text-sm font-semibold line-clamp-2 text-white">
                         {video?.title}
                     </span>
                     <span className="text-[12px] lg:text-[10px] xl:text-[12px] font-semibold mt-2 text-white/[0.7] flex items-center">

@@ -19,7 +19,7 @@ const App = () => {
     return (
         <AppContext>
             <BrowserRouter>
-                <div className="flex flex-col h-full">
+                <div className="flex flex-col h-full backgroundimage">
                     <Header />
                     <Routes>
                         <Route path="/" exact element={<Feed />} />
@@ -34,5 +34,7 @@ const App = () => {
         </AppContext>
     );
 };
+
+alert('this is under development u will not able to use for now...');
 
 export default App;
